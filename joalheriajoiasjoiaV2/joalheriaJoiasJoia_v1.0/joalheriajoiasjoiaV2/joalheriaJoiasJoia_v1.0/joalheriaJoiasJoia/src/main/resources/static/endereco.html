@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Endereço</title>
+</head>
+<body>
+	<form id="EnderecoForm">
+    <div class="container">
+        <h2>Cadastro Endereço</h2>
+        <form id="cadastroClienteForm">
+            <input type="text" id="cep" name="cep" placeholder="CEP" required>
+            <input type="estado" id="estado" name="estado" placeholder="Estado" maxlength="2" required>
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+            <input type="text" id="numero" name="numero" placeholder="Numero" required>
+            <input type="text" id="bairro" name="bairro" placeholder="Bairro" required>
+            <input type="text" id="rua" name="rua" placeholder="Rua" required>
+            <!--<button type="submit">Enviar</button>-->
+
+            <p>
+               <button type="subimit">Cadastrar</button>
+            </p>
+
+			</form>
+        </form>
+    </div>
+	
+	<script src="scriptEndereco.js"></script>
+
+</body>
+</html>
