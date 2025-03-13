@@ -1,0 +1,103 @@
+/* Resetando margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aba:hover {
+    background-color: #555;
+    transform: scale(1.05);  /* Um pequeno aumento no tamanho ao passar o mouse */
+}
+
+.abas {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.aba {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #d2b54c;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Área de conteúdo */
+.conteudo {
+    padding: 80px;
+    color: #d2b54c;
+}
+
+h1 {
+    color: #d2b54c;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #d2b54c;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar-link:hover {
+    background-color: #806325;
+    transform: scale(1.05);  /* Efeito de aumento de tamanho */
+}
+
+.produto{
+    color: #d2b54c;
+    padding: 20px;
+}
+
+.produtocomprar{
+    border-radius: 5px;
+    color: #78610c;
+    padding: 5px;
+    background-color: #8a8230;
+}
+
+.produtocomprar:hover{
+    background-color: #b79642;
+}
